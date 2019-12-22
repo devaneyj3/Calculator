@@ -1,0 +1,30 @@
+.container {
+    margin: 10%;
+    border: 1px solid black;
+}
+.display {
+    width: 75%;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+}
+.row {
+    display: flex;
+    cursor: pointer;
+    font-size: 40px;
+}
+
+.number { 
+    background-color: #d8d9db;
+    height: 100px;
+    padding: 40px;
+    border: 1px solid black;
+}
+
+.operation {
+    background-color: #df974c;
+    color: white;
+    padding: 40px;
+}
+
