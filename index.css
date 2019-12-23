@@ -3,12 +3,18 @@
     border: 1px solid black;
 }
 .display {
-    width: 75%;
+    width: 100%;
     color: white;
     background-color: black;
     display: flex;
     justify-content: flex-end;
+    flex-grow: 1
 }
+
+.output {
+    margin-right: 5%;
+}
+
 .row {
     display: flex;
     cursor: pointer;
@@ -17,14 +23,34 @@
 
 .number { 
     background-color: #d8d9db;
-    height: 100px;
     padding: 40px;
     border: 1px solid black;
+    border-radius: 0;
+    font-size: 40px;
+    flex-grow: 1;
+    width: 24.5%;
+    justify-content: space-between;
+}
+.number:hover {
+    opacity: .5;
+}
+.number:active {
+    background-color: gray
 }
 
 .operation {
     background-color: #df974c;
     color: white;
     padding: 40px;
+    width: 24.5%;
+    justify-content: space-between;
+}
+
+.operation:hover {
+    opacity: .5;
+}
+
+.operation:active {
+    background-color: orange;
 }
 
