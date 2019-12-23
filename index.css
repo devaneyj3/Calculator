@@ -3,6 +3,7 @@
     border: 1px solid black;
 }
 .display {
+    height: 100px;
     width: 100%;
     color: white;
     background-color: black;
@@ -18,7 +19,6 @@
 .row {
     display: flex;
     cursor: pointer;
-    font-size: 40px;
 }
 
 .number { 
@@ -38,10 +38,15 @@
     background-color: gray
 }
 
+.calculation {
+    cursor: pointer
+}
+
 .operation {
     background-color: #df974c;
     color: white;
     padding: 40px;
+    font-size: 40px;
     width: 24.5%;
     justify-content: space-between;
 }
